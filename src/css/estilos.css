@@ -1,0 +1,85 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'poppins' ,sans-serif;
+    background: url('/src/images/bg-desktop.svg') hsl(257, 40%, 49%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    padding: 0 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho{
+    padding: 35px 0;
+}
+
+.cabecalho img{
+    width: 200px;
+}
+
+.conteudo{
+    padding: 10px 0px;
+    display: flex;
+    height: 350px;
+}
+.conteudo .imagem-layout{
+    width: 60%;
+}
+
+.conteudo .imagem-layout img {
+    width: 100%;
+    height: 100%;
+}
+
+.conteudo .informacoes{
+    padding: 55px 135px;
+    color: #ffffff;
+    width: 700px;
+}
+
+.informacoes .titulo{
+    padding-right: 40px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.informacoes p{
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.btn-registrar{
+    color: hsl(257, 40%, 49%);
+    width: 160px;
+    height: 40px;
+    border-radius: 25px;
+    transition: 0.6s;
+}
+
+.btn-registrar:hover{
+    color: #ffffff;
+    background-color: hsl(300, 69%, 71%);
+}
+
+.rodape{
+    display: flex;
+    justify-content: flex-end;
+    padding: 22px 30px 0;
+    gap: 15px;
+}
+
+.rodape i{
+    color: #ffffff;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 11px;
+    transition: 0.6s;
+}
+
+.rodape a i:hover {
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}

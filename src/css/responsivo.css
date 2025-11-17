@@ -1,0 +1,85 @@
+@media (max-width: 1020px){
+    body{
+        padding: 20px 110px;
+        background-image: url('/src/images/bg-mobile.svg');
+        background-size: 100%;
+        background-position: 0 -130px;
+    }
+    .cabecalho{
+        padding: 30px 0;
+    }
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteudo .imagem-layout img{
+        width: 540px;
+        height: 250px;
+    }
+
+    .conteudo .informacoes{
+        width: 540px;
+        height: 270px;
+        padding: 50px;
+        text-align: center;
+    }
+    
+    .conteudo .informacoes .descricao{
+        padding: 30px 20px;
+    }
+
+    .rodape{
+        width: 540px;
+        justify-content: center;
+        margin-top: 330px;
+        padding: 0;
+    }
+}
+
+@media(max-width: 576px){
+    body{
+        background-image: url('/src/images/bg-mobile.svg');
+        background-size: 100%;
+        background-position: 0 0;
+        padding: 0 30px;
+    }
+    .cabecalho{
+        padding: 30px 0;
+    }
+    
+    .conteudo .imagem-layout img{
+        width: 350px;
+        height: 245px;
+    }
+
+    .conteudo .informacoes{
+        width: 310px;
+        height: 270px;
+        padding: 70px 0;
+    }
+
+    .conteudo .informacoes .titulo{
+        font-size: 28px;
+        padding: 0 10px;
+        width: 350px;
+    }
+
+    .conteudo .informacoes .descricao{
+        font-size: 15px;
+        width: 330px;
+        padding: 20px 10px;
+        margin-left: 10px;
+    }
+
+    .conteudo .informacoes .btn-registrar{
+        width: 200px;
+        margin-left: 40px;
+    }
+
+    .rodape{
+        width: 350px;
+        justify-content: center;
+        margin-top: 350px;
+    }
+}
