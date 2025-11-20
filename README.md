@@ -4,12 +4,12 @@ Desafio para testar os conhecimentos em html e css do curso Dev em dobro, usando
 
 ## Índice
 
-- [Sobre](#sobre)
-- [Funcionalidades](#funcionalidades)
-- [Screenshot](#screenshot)
-- [Links](#links)
-- [Tecnologias utilizadas](#tecnologias-utilizadas)
-- [O que foi aprendido](#o-que-foi-aprendido)
+- [Sobre](#-sobre)
+- [Funcionalidades](#-funcionalidades)
+- [Screenshot](#-screenshot)
+- [Links](#-links)
+- [Tecnologias utilizadas](#-tecnologias-utilizadas)
+- [O que foi aprendido](#-o-que-foi-aprendido)
 
 ## 📖 Sobre
 
